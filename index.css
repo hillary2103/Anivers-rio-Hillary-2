@@ -50,7 +50,7 @@ box-shadow: none;
 }
 h1{
     color: #fff7af;
-    margin-left: 50dvh;
+    text-align: center;
     font-size: 8dvh;
     font-family: "Great Vibes", cursive;
 }
@@ -88,3 +88,4 @@ p{
 #menu-toggle:checked + .menu-botao + nav .menu {
     display: flex;
 }
+
