@@ -4,18 +4,27 @@ background-image: url(https://i.pinimg.com/1200x/63/a7/cd/63a7cdcc953166a3305cb1
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
-background-color: rgba(0,0,0,0,4);
+background-color: rgba(0,0,0,0.6);
 background-blend-mode: darken;
 min-height: 100dvh;
-font-family: Georgia, 'Times New Roman', Times, serif;
 }
 ul{
 display: flex;
 justify-content: center;
 list-style: none;
-gap: 270px;
+gap: 14dvh;
 align-items: center;
-padding: 300px;
+padding: 10dvh;
+font-family: "Great Vibes", cursive;
+}
+h1{
+    font-size: 15dvh;
+    font-family: "Great Vibes", cursive;
+    text-align: center;
+    margin-top: 10dvh;
+    background: -webkit-linear-gradient(#fff7af, #9cc8ec);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .botao{
     display: inline-block;
@@ -27,6 +36,8 @@ padding: 300px;
     text-decoration: none;
     box-shadow: none;
     transition: 0.3s ease;
+    font-size: 6dvh;
+    margin-top: 3dvh;
 }
 .botao:hover{
     box-shadow: none;
