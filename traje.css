@@ -1,6 +1,6 @@
 body{
-    background-image: url(https://i.pinimg.com/1200x/37/18/f3/3718f371e82f9ada6cba388a4d38b358.jpg);
-    background-color: rgba(0,0,0,0.5);
+    background-image: url(2wCEAAkGBxQTEhUSExMWFRUXGRoYFxcYGBgXGBcaGBYYGBoYGhcYHSggGBolHhUYITEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0OGxAQGyslICUtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf);
+    background-color: rgba(0,0,0,0.4);
     background-blend-mode: darken;
     background-size: cover;
     background-repeat: no-repeat;
@@ -33,5 +33,6 @@ h1{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 
 
