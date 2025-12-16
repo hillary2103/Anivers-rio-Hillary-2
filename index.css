@@ -8,10 +8,6 @@ body{
     position: relative;
     min-height: 100dvh
 }
-nav, ul, h1, p, .botao {
-    position: relative;
-    z-index: 1;
-}
 body::before{
 content: "";
 position: fixed;
@@ -43,12 +39,14 @@ a{
     font-size: 4dvh;
     transition: 0.3s ease;
     font-family: "Great Vibes", cursive;
+
 }
 .botao:hover{
 transform: translateY(-1dvh);
 box-shadow: none;
 }
 h1{
+    margin-top: 10dvh;
     color: #fff7af;
     text-align: center;
     font-size: 8dvh;
@@ -64,27 +62,60 @@ p{
 #menu-toggle{
     display: none;
 }
+
 .menu-botao{
-    display: inline-block;
-    padding: 2dvh 2dvh;
-    background: linear-gradient(#0000,#735bff00);
-    color: #fff9c1;
-    border-radius: 30px;
-    border: none;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 3;
+
+    padding: 12px 24px;
     font-family: "Great Vibes", cursive;
     font-size: 4dvh;
-    margin: 4dvh;
+    border-radius: 30px;
+    border: none;
+    background: linear-gradient(#57a8a8, #455a77);
+    color: #fff7af;
+    cursor: pointer;
 }
-.menu-botao:hover {
-    transform: translateY(-1vh);
+
+nav{
+    position: fixed;
+    top: 0;
+    left: -320px;
+    width: 300px;
+    height: 100vh;
+    background: rgba(0,0,0,0.6);
+    padding-top: 120px;
+    transition: 0.4s ease;
+    z-index: 1;
 }
-.menu {
-    display: none;
-    flex-direction: column;
-    align-items: flex-start;
-    padding-left: 40px;
-    gap: 20px;
-}
-#menu-toggle:checked + .menu-botao + nav .menu {
+
+.menu{
+    list-style: none;
     display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 30px;
 }
+
+#menu-toggle:checked + .menu-botao + nav{
+    left: 0;
+}
+
+.botao{
+    display: inline-block;
+    padding: 14px 28px;
+    font-family: "Great Vibes", cursive;
+    font-size: 4dvh;
+    border-radius: 30px;
+    background: linear-gradient(#57a8a8, #455a77);
+    color: #fff7af;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.botao:hover{
+    transform: translateX(6px);
+}
+
