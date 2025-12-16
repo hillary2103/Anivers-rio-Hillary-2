@@ -31,7 +31,7 @@ h1, form, .menu-botao{
     position: fixed;
     top: 20px;
     left: 20px;
-    z-index: 3;
+    z-index: 5;
 
     padding: 12px 24px;
     font-family: "Great Vibes", cursive;
@@ -123,3 +123,4 @@ button{
     font-size: 3dvh;
     cursor: pointer;
 }
+
