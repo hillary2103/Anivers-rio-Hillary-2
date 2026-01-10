@@ -20,7 +20,7 @@ body::before{
 
 h1, form, .menu-botao{
     position: relative;
-    z-index: 2;
+    z-index: 10;
 }
 
 #menu-toggle{
@@ -122,5 +122,6 @@ button{
     font-size: 3dvh;
     cursor: pointer;
 }
+
 
 
