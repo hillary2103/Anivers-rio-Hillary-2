@@ -8,7 +8,7 @@ body{
 }
 .carousel{
    display: flex;
-   gap: 20dvh;
+   gap: 15dvh;
    overflow-x: auto;
    overflow-y: hidden;
    padding: 5dvh;
@@ -112,3 +112,4 @@ nav{
     transform: translateX(6px);
 
 }
+
